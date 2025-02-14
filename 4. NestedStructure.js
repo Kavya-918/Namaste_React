@@ -7,6 +7,9 @@
 </div>
  */
 
+/* Parent -> React Element(Object) ->HTML (Browser Understand) 
+  while Render it's convert to HTML
+*/
 
 /* In React Nested Structure */
 const  parent = React.createElement(
