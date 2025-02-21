@@ -21,7 +21,7 @@
 
   //Optimaized code for call and loop until the data having
   {resList.map((restaurant) => (
-                      <RestaurantCard resData={restaurant}/>
+                      <RestaurantCard resData={restaurant} key={restaurant.info.id} />
                   ))}
 
 
