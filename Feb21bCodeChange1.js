@@ -33,7 +33,7 @@
               <div className="res-container">
                   {/* Instead of writing manually, use a loop to render the restaurant cards */}
                   {resList.map((restaurant) => (
-                      <RestaurantCard resData={restaurant} key={restaurant.id} />
+                      <RestaurantCard resData={restaurant} key={restaurant.info.id} />
                   ))}
               </div>
           </div>
